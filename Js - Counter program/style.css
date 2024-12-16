@@ -1,0 +1,24 @@
+#mylabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:  Helvetica, sans-serif;
+}
+
+#container{
+    text-align: center;
+}
+.btns{
+    padding: 8px 18px;
+    background-color: rgb(177, 177, 254);
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btns:hover{
+    background-color: rgb(75, 75, 223);
+    color: black;
+}
