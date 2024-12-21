@@ -1,0 +1,38 @@
+
+body{
+    background-image: url(./image/Numbers-pic.jpg);
+
+}
+#game{
+    color:white;
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 6em;
+    margin-top: 400px;
+    padding: 20px 30px;
+    text-shadow:5px 5px 6px rgb(240, 88, 240);
+}
+#result{
+    font-size: 2em;
+    font-style: italic;
+}
+#result2{
+    font-size: 2em;
+    font-style: italic;
+}
+#btn{
+    padding: 5px 12px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(244, 193, 250);
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(226, 114, 239);
+}
