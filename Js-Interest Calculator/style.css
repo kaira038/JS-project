@@ -1,0 +1,68 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(250, 232, 210, 0.784);
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3em;
+    color: rgb(20, 3, 116);
+    text-shadow: 2px 2px 7px rgb(135, 235, 147);
+}
+
+form{
+    max-width: 350px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.162);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+input{
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.129);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+
+    background-color:rgb(101, 101, 247);
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(101, 101, 187);
+}
+
+button:active{
+    background-color:rgb(101, 101, 147);    
+}
+
+#total{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+#total-amt{
+    color: rgb(15, 178, 80);
+}
